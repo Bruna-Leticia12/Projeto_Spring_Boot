@@ -22,6 +22,9 @@ import com.example.springbootprojeto.entities.User;
 @RestController
 @RequestMapping(value = "/users")
 public class UserResource {
+	public UserResource(UserService service) {
+		this.service = service;
+	}
 
 	@Autowired
 	private UserService service;

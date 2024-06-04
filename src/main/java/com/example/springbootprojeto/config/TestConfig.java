@@ -69,14 +69,16 @@ public class TestConfig implements CommandLineRunner {
 		productRepository.saveAll(Arrays.asList(p1, p2, p3, p4, p5));
 		
 
-		User u1 = new User(null, "Maria Luz", "maria@gmail.com", "988888888", "123456");
-		User u2 = new User(null, "Alex Paulo", "alex@gmail.com", "977777777", "123456");
+		User u1 = new User(null, "Maria Luz", "maria@gmail.com", "986212355", "123456");
+		User u2 = new User(null, "Alex Paulo", "alex@gmail.com", "978512649", "692345");
+		User u3 = new User(null, "Joana Lima", "joana@gmail.com", "998324678", "789452");
+		User u4 = new User(null, "Carlos Santos", "carlos@gmail.com", "966742061", "827193");
 
 		Order o1 = new Order(null, Instant.parse("2024-05-20T19:53:07Z"), OrderStatus.PAID, u1);
 		Order o2 = new Order(null, Instant.parse("2024-05-21T03:42:10Z"), OrderStatus.WAITING_PAYMENT, u2);
 		Order o3 = new Order(null, Instant.parse("2024-05-22T15:21:22Z"), OrderStatus.PAID, u1);
 
-		userRepository.saveAll(Arrays.asList(u1, u2));
+		userRepository.saveAll(Arrays.asList(u1, u2, u3, u4));
 		orderRepository.saveAll(Arrays.asList(o1, o2, o3));
 		
 		OrderItem oi1 = new OrderItem(o1, p1, 2, p1.getPrice());
