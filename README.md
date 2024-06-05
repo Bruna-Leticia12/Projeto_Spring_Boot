@@ -1,7 +1,8 @@
-<h1 align="center"> 
-    <img src= './src/logo.png'>
+<h1 align="center">
     <p>Gerenciamento de Pedidos com SpringBoot 📦<p>
 </h1>
+
+
 
 ## [Sobre](#sobre) 📖
 O projeto consiste no desenvolvimento de uma estrutura Backend com SpringBoot para gerenciamento de pedidos com cadastro de clientes, registro de produtos, categorias e pedidos.
@@ -61,10 +62,10 @@ mvn spring-boot:run
  #Acesso em:
 localhost:8080/h2-console
  ```
-
- <h3 align="center"> 
-    <img src= './src/print.png'>
+ <h3 align="center">
 </h3>
+
+[![Imagem-Login.jpg](https://i.postimg.cc/d0RWpcws/Imagem-Login.jpg)](https://postimg.cc/94MtwSDK)
 
 - Ao acessar o console faça a conexão ao seu banco de dados para salvar as suas atividades.
 
@@ -77,8 +78,8 @@ Configuração de Ambiente
 <br>
 ## [Autores:](#Autores)
 
-- 👤 **Bruna Leticia dos Santos** - **[Github](https://github.com/Bruna-Leticia12)**
-- 👤 **Caio Martins Taparo** - **[Github]()**
-- 👤 **Gianlucca Rissato** - **[Github]()**
-- 👤 **Nathalie Assis Gomes** - **[Github]()**
+- 👤 **Bruna Leticia dos Santos**
+- 👤 **Caio Martins Taparo**
+- 👤 **Gianlucca Rissato** 
+- 👤 **Nathalie Assis Gomes** 
 - 👤 **Vinicius de Souza Santos**
