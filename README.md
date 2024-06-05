@@ -2,8 +2,6 @@
     <p>Gerenciamento de Pedidos com SpringBoot 📦<p>
 </h1>
 
-
-git
 ## [Sobre](#sobre) 📖
 O projeto consiste no desenvolvimento de uma estrutura Backend com SpringBoot para gerenciamento de pedidos com cadastro de clientes, registro de produtos, categorias e pedidos.
 
@@ -76,7 +74,8 @@ Configuração de Ambiente
 - [Spring Boot 2.3.3](https://spring.io/projects/spring-boot)
 - Java 11
 <br>
-## [Autores:](#Autores)
+
+## [Autores](#Autores)
 
 - 👤 **Bruna Leticia dos Santos**
 - 👤 **Caio Martins Taparo**
