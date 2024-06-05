@@ -117,9 +117,9 @@ Para compilar e executar o projeto, siga estas etapas:
 
 ### Recursos do Projeto
 
-- CRUD (Create, Read, Update, Delete) para Usuários, Produtos, Categorias e Pedidos
-- Mapeamento de relacionamentos JPA
-- Endpoints REST para cada entidade
+- CRUD (Create, Read, Update, Delete) para Usuários, Produtos, Categorias e Pedidos.
+- Mapeamento de relacionamentos JPA.
+- Endpoints REST para cada entidade.
 
 ### Exemplos de Uso
 
